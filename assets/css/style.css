@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,500;9..40,600;9..40,700&family=Inconsolata:wght@400;500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.heading {
+    font-family: DM Sans;
+    font-size: 42px;
+    line-height: 52px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+    color: #1E0E62;
+    margin-bottom: 40px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.col-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.col-3 {
+    width: 25%;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
+.textbox {
+    background: #F5F5F6;
+    width: 770px;
+    height: 304px;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.text {
+    font-family: Inconsolata;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #1E0E62;
+    width: 698px;
+    height: 230px;
+    top: 203px;
+    left: 247px;
+}
+
+.btn {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #1E0E62;
+    width: 80px;
+    height: 40px;
+    border-radius: 100px;
+    border: 2px solid #EBEAED;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn-box {
+    text-align: right;
+    margin-top: 35px;
+    margin-right: 58px;
+}
+
+.code {
+    width: 200px;
+    height: 146px;
+    top: 203.2px;
+    left: 1039px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.greatcode {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.txt-greatcode {
+    margin-left: 18px;
+    font-family: DM Sans;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #1E0E62;
+}
+
+.pbox {
+    width: 196px;
+    height: 104px;
+    top: 245.2px;
+    left: 1043px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.mt16 {
+    margin-top: 16px;
+}
+
+.love {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: rgba(21, 20, 57, 0.4);
+    ;
+}
